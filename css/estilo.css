@@ -1,0 +1,159 @@
+* { margin: 0 auto; padding: 0; }
+
+body { 
+  font-family: Georgia,Utopia,Charter,serif; 
+  max-width: 624px;
+}
+
+/* . ---------
+ *   Cabeçalho
+ */
+
+#cabec {
+  border-bottom: 2px solid #EEE;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  text-align: right;
+}
+
+#cabec > h1 > a {
+  font-weight: normal;
+  color: #777;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+/* . -----
+ *   Corpo
+ */
+
+#corpo > div#entrada {
+    margin-left: 0.2em;
+}
+
+#corpo h1, h2, h3 {
+  color: #E00000;
+}
+
+#corpo h2, h3 {
+  margin-bottom: 0.5em;
+}
+
+/*
+#corpo h1 { font-size: 1.80em; }
+#corpo h2 { font-size: 1.40em; }
+#corpo h3 { font-size: 1.07em; }
+*/
+
+#corpo span.primeiraletra {
+  color: #E00000;
+  display: inline-block;
+  float: left;
+  font-size: 80px;
+  line-height: 80px;
+  margin: -4px 8px -18px 0;
+}
+
+#corpo p.data {
+  color: #0000E0;
+  font-style: italic;
+}
+
+#corpo p.poema {
+  font-family: Arial, sans-serif;
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: right;
+}
+
+#corpo p.excerto {
+  font-style: italic;
+  margin-left: 2.5em;
+  margin-top: 0.5em;
+  font-size: 90%;
+}
+
+#corpo pre {
+  margin-left: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+#corpo ul, ol {
+  margin-left: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+#corpo li {
+  margin: 0 0 1.5em 1.5em;
+}
+
+#corpo a {
+  color: #E00000;
+  text-decoration: none;
+}
+
+#corpo a:hover {
+  color: #0000E0;
+}
+
+#corpo p {
+  margin: 0 0 1.5em;
+  line-height: 1.5;
+}
+
+#corpo sup {
+  vertical-align: top;
+}
+
+#corpo ul.lentradas {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+#corpo ul.lentradas > li {
+  color: #777;
+  margin: 0 0 0.5em 0;
+}
+
+#corpo ul.lentradas > span {
+  color: #777;
+}
+
+
+/* . ------
+ *   Rodapé
+ */
+
+#rodap {
+  border-top: 4px solid #EEE;
+  font-size: 80%;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align: right;
+  color: #777777;
+}
+
+#rodap a {
+  color: #E00000;
+  text-decoration: none;
+}
+
+#rodap a:hover {
+  color: #0000E0;
+}
+
+.footnotes {
+  font-size: 80%;
+  font-style: italic;
+  color: #777;
+}
+
+.footnotes li {
+  margin: 0 0 1.5em 1.5em;
+}
+
+a[rev="footnote"] {
+  margin-top:-3em;
+}
+
