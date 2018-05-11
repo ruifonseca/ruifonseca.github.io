@@ -1,7 +1,7 @@
 PT
 =====
 
-Projecto com os ficheiros do meu sítio no [GitHub Pages](http://pages.github.com/),
+Projeto com os ficheiros do meu sítio no [GitHub Pages](http://pages.github.com/),
 usando [Jekyll](http://jekyllrb.com/).
 
 Resultado final aqui: [ruifonseca.github.io](http://ruifonseca.github.io).
